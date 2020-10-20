@@ -1,0 +1,179 @@
+html {
+    padding: 0 20% 0 20%;
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+}
+/*Header*/
+
+nav div {
+    display: flex;
+    margin-top: 2rem;
+}
+nav div ul  {
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 0;
+   
+}
+nav div ul li a {
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+
+/*Hero*/
+#hero {
+    height: 350px;
+    background: url("../img/bg.jpeg") ;
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: -100px;
+}
+#hero img {
+    margin-top: 150px;
+    height: 200px;
+    width: auto;
+}
+/*Hello*/
+#hello {
+    background: url(../img/beans_icon.png);
+    height: 200px;
+    background-size: 800px auto;
+    background-position: 0 -300px;
+}
+#hello h2 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin: 0;
+}
+#hello div {
+    position: relative;
+    width: 350px;
+    left: 80px;
+    top: 50px;
+
+/*Flowers*/
+}
+#flowers {
+    height: 240px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+
+}
+#flowers img {
+    object-fit: cover;
+    width: 917px;
+    height: 240px;
+}
+/*Menu*/
+
+#menu {
+    background: url(../img/cake_icon.png);
+    height: 500px;
+    background-size: cover;
+    background-position: 0 -300px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+#menu p {
+    margin: 1em;
+    text-align: center;
+    margin: 0;
+}
+#menu h2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+#menu img {
+    width: 40px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu > div {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#menu h3 {
+    text-align: center;
+    margin: .2em;
+}
+#menu .box {
+    border: 1px solid;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/*bridge2*/
+#bread  {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#bread img {
+    object-fit: cover;
+    width: 917px;
+    height: 240px;
+}
+#bridge2 {
+    height: 240px;
+    background: url("../img/bridge_2.jpg") ;
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0 -20px;
+}
+#bridge2 img {
+    margin-top: 150px;
+    height: 200px;
+    width: auto;
+}
+/*Our Story*/
+
+#story {
+    margin-left: 20%;
+    margin-right: auto;
+    height: 400px;
+    width: auto;
+}
+
+.storyCont {
+    width: 500px;
+    display: inline-block;
+    float: left;
+    justify-content: space-evenly;
+    position: relative;
+}
+.storyCont > div {
+    width: auto;
+    display: inline-block;
+    height: 150px;
+    float: left;
+}
+.storyCont > div h3, p {
+    width: 360px;
+}
+
+#story h3 img {
+    height: 150px;
+    width: 200px;
+    clear: left;
+    float: right;
+    margin-top: 150px;
+    margin-right: 100px;
+}
