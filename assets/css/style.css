@@ -1,9 +1,15 @@
 html {
-    padding: 0 20% 0 20%;
+    padding: 0 250px;
+
 }
 
 body {
     font-family: 'Special Elite', cursive;
+}
+.button {
+    background-color: white;
+    border-radius: 2px;
+    padding: 2px;
 }
 /*Header*/
 
@@ -29,14 +35,16 @@ nav div ul li a {
 /*Hero*/
 #hero {
     height: 350px;
-    background: url("../img/bg.jpeg") ;
-    background-size: 1200px auto;
+    width: 917px;
+    background: url("../img/bg.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-position: -100px;
+    background-position: 0 -150px;
+    background-size: cover;
+
 }
 #hero img {
     margin-top: 150px;
+    margin-left: 0;
     height: 200px;
     width: auto;
 }
@@ -44,8 +52,13 @@ nav div ul li a {
 #hello {
     background: url(../img/beans_icon.png);
     height: 200px;
-    background-size: 800px auto;
+    width: 917px;
+    background-size: cover;
     background-position: 0 -300px;
+}
+#hello > div {
+    width: 917px;
+    position: absolute;
 }
 #hello h2 {
     font-family: 'Exo', sans-serif;
@@ -78,8 +91,8 @@ nav div ul li a {
 #menu {
     background: url(../img/cake_icon.png);
     height: 500px;
-    background-size: cover;
-    background-position: 0 -300px;
+    width: 917px;
+    background-size: contain;
     padding-bottom: 50px;
     background-repeat: no-repeat;
 }
@@ -132,48 +145,208 @@ nav div ul li a {
 }
 #bridge2 {
     height: 240px;
+    width: 917px;
     background: url("../img/bridge_2.jpg") ;
-    background-size: 1200px auto;
     background-repeat: no-repeat;
-    background-position: center;
     background-position: 0 -20px;
+
 }
 #bridge2 img {
     margin-top: 150px;
     height: 200px;
-    width: auto;
+    width: 917px;
 }
 /*Our Story*/
 
 #story {
-    margin-left: 20%;
+    display: block;
+    margin-top: 5%;
     margin-right: auto;
-    height: 400px;
-    width: auto;
+    width: 917px;
+    height: 500px;
 }
 
 .storyCont {
-    width: 500px;
-    display: inline-block;
+    width: 917px;
     float: left;
     justify-content: space-evenly;
     position: relative;
-}
-.storyCont > div {
-    width: auto;
-    display: inline-block;
-    height: 150px;
-    float: left;
-}
-.storyCont > div h3, p {
-    width: 360px;
+    margin-top: 50px;
+    margin-left: 20%;
 }
 
-#story h3 img {
+.storyCont h3 {
+    margin-left: 10%;
+}
+
+.storyCont div {
+    width: 330px;
+    margin: 0;
+}
+.storyCont p {
+    width: 330px;
+    margin: 0;
+}
+
+#story img {
     height: 150px;
     width: 200px;
-    clear: left;
     float: right;
+    margin-right: 350px;
     margin-top: 150px;
-    margin-right: 100px;
+}
+/*Catering*/
+
+#bridge3 {
+    height: 240px;
+    width: 917px;
+    background: url("../img/bridge_3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0 -20px;
+    justify-content: space-evenly;
+    position: relative;
+}
+#bridge3 > img {
+    object-fit: cover;
+    width: 917px;
+    height: 240px;
+}
+#cater {
+    display: flex;
+    width: 917px;
+    height: 400px;
+}
+.cater1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    height: 300px;
+    margin-left: 20%;
+}
+.cater1 img {
+    height: 150px;
+    padding-right: 100px;
+}
+.cater2 {
+    background-image: url("../img/pie_icon.png");
+    background-position-x: 15%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.cater2 h3, .cater2 p, .cater2 button {
+    margin-right: auto;
+    margin-left: auto;
+}
+.cater2 h3 {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.8rem;
+}
+
+
+/*Bridge4*/
+
+#bridge4 {
+    height: 240px;
+    width: 917px;
+    background: url("../img/bridge_4.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0 -120px;
+    justify-content: space-evenly;
+    position: relative;
+}
+#bridge4 > img {
+    object-fit: cover;
+    width: 917px;
+    height: 240px;
+}
+/*Cakes*/
+
+#cakes {
+    display: inline-flex;
+    width: 917px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.cakesCont {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.cakes1 {
+    display: inline-flex;
+    width: 224px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cakes2 {
+    display: inline-block;
+    width: 350px;
+    padding-left: 20px;
+}
+.cakes1 img {
+    height: 150px;
+}
+.cakesBg {
+    position: relative;
+}
+.cakesBg img {
+    width: 250px;
+    position: absolute;
+    left: 80%;
+}
+.cakes2 h3 {
+    font-size: 1.8rem;
+}
+
+/*Footer*/
+
+footer {
+    width: 917px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact {
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: .6rem;
+}
+.contact > h4 {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.8rem;
+    margin: 10px 0 0 0;
+}
+.social {
+    width: 20px;
+    text-align: center;
+}
+.social h4 {
+    text-align: center;
+}
+.social p {
+    text-align: center;
+    margin-right: 0;
+}
+.socialImg {
+    display: block;
+    text-align: center;
+}
+.today {
+    display: block;
+    width: 70px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
