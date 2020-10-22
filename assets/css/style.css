@@ -104,9 +104,14 @@ nav div ul li a {
 #menu h2 {
     font-family: 'Exo', sans-serif;
     font-size: 1.8rem;
-    font-weight: bolder;
     text-align: center;
     margin: 0;
+}
+#menu h3 {
+    font-family: 'Exo', sans-serif;
+    font-size: .8rem;
+    text-align: center;text-align: center;
+    margin: .2em;
 }
 #menu img {
     width: 40px;
@@ -121,10 +126,7 @@ nav div ul li a {
     margin-right: auto;
     text-align: center;
 }
-#menu h3 {
-    text-align: center;
-    margin: .2em;
-}
+
 #menu .box {
     border: 1px solid;
     margin-bottom: 20px;
@@ -177,6 +179,8 @@ nav div ul li a {
 
 .storyCont h3 {
     margin-left: 10%;
+    font-family: 'Exo', sans-serif;
+    font-size: 1.8rem;
 }
 
 .storyCont div {
@@ -304,6 +308,7 @@ nav div ul li a {
 }
 .cakes2 h3 {
     font-size: 1.8rem;
+    font-family: 'Exo', sans-serif;
 }
 
 /*Footer*/
